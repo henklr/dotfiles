@@ -1,0 +1,11 @@
+* {
+  font-family: "JetBrainsMono Nerd Font", monospace;
+  font-size: 13px;
+  background: #1e1e2e;
+  color: #cdd6f4;
+}
+
+#clock, #pulseaudio, #battery, #network, #tray {
+  padding: 0 10px;
+}
+
