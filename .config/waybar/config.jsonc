@@ -10,7 +10,7 @@
   },
 
   "pulseaudio": {
-    "format": " {volume}%"
+    "format": " {volume}%",
     "on-click": "pavucontrol"
   },
 
