@@ -3,7 +3,7 @@
   "position": "top",
   "modules-left": ["hyprland/workspaces"],
   "modules-center": ["clock"],
-  "modules-right": ["pulseaudio", "network", "battery", "tray"],
+  "modules-right": ["pulseaudio", "bluetooth", "network", "battery", "tray"],
 
   "clock": {
     "format": "{:%H:%M}"
@@ -11,6 +11,12 @@
 
   "pulseaudio": {
     "format": " {volume}%"
+  },
+
+  "bluetooth": {
+    "format": "",
+    "format-disabled": "󰂲",
+    "on-click": "blueberry"
   },
 
   "battery": {
