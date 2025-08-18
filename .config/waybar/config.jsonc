@@ -20,6 +20,11 @@
     "on-click": "blueberry"
   },
 
+  "network": {
+    "format": "",
+    "on-click": "iwgtk"
+  },
+
   "battery": {
     "format": "{capacity}% {icon}",
     "format-icons": ["", "", "", "", ""]
