@@ -8,7 +8,20 @@ window#waybar {
   color: #cdd6f4;
 }
 
-#clock, #pulseaudio, #battery, #network, #tray {
-  padding: 0 20px;
+#clock, #pulseaudio, #bluetooth, #battery, #network, #tray {
+  padding: 0 10px;
+  border: 1px solid transparent;
+  border-radius: 6px;
+  transition: border 0.2s ease, background 0.2s ease;
+}
+
+#clock:hover,
+#pulseaudio:hover,
+#bluetooth:hover,
+#battery:hover,
+#network:hover,
+#tray:hover {
+  border: 1px solid #cdd6f4;
+  /*background: rgba(30, 30, 46, 0.4);*/
 }
 
