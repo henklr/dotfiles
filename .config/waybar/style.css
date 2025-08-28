@@ -33,3 +33,6 @@ window#waybar {
   background-image: none;
   box-shadow: none;
 }
+#workspaces button.active {
+  background-color: rgba(133, 133, 133, 0.467);
+}
