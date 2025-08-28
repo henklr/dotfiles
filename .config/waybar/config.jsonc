@@ -6,7 +6,8 @@
   "modules-right": ["pulseaudio", "bluetooth", "network", "battery", "tray"],
 
   "clock": {
-    "format": "{:%H:%M}"
+    "format": "{:%H:%M}",
+    "tooltip-format": "{:%A, %d %B %Y}" 
   },
 
   "pulseaudio": {
@@ -21,13 +22,17 @@
   },
 
   "network": {
-    "format": " ",
+    "format": "󰤨",
+    "format-disabled": "󰤭",
+    "tooltip-format": "{essid}",
     "on-click": "iwgtk"
   },
 
   "battery": {
     "format": "{capacity}% {icon}",
+    "format-charging": " {capacity}%",
+    //"format-plugged": " {capacity}%",
+    //"format-full": " {capacity}%",
     "format-icons": ["", "", "", "", ""]
   }
 }
-
